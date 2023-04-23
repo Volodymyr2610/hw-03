@@ -336,6 +336,8 @@ footer {
   text-transform: uppercase;
   color: var(--main-btn);
   display: inline-block;
+
+  margin-bottom: 16px;
 }
 
 .fut {
@@ -375,13 +377,15 @@ footer {
 
   border: 1px solid #E7E9FC;
   border-radius: 4px;
-  padding: 16px 24px;
+  padding: 12px 24px;
+  border: 1px solid transparent;
 }
 
 .button-portfolio:focus,
 .button-portfolio:hover {
   color: var(--white-text);
   background-color: var(--nav-color-acctive);
+  border: 1px solid transparent;
 }
 
 .button {
@@ -410,8 +414,6 @@ footer {
   color: var(--main-text-color);
 }
 
-
-
 /* .nav-item:not(:last-child) {
   margin-right: 24px;
 } */
@@ -419,9 +421,10 @@ footer {
 .product {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  /* gap: 24px; */
+  
 }
-
+ 
 .product-text {
   padding: 32px 16px;
 } 
