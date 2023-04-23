@@ -26,7 +26,7 @@ ul {
 
 ul {
   padding-left: 0;
-} 
+}
 
 .link {
   text-decoration: none;
@@ -55,13 +55,14 @@ body {
 
 .image {
   display: block;
-} 
+}
 
 /* Header */
 
-.page-header {padding: 24px 0;
+.page-header {
+  padding: 24px 0;
   background-color: var(--white-text);
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -131,9 +132,8 @@ body {
 }
 
 .contact-item:not(:last-child) {
-   margin-right: 40px;
-  }
-
+  margin-right: 40px;
+}
 
 .contact-link {
   font-size: 16px;
@@ -151,7 +151,7 @@ body {
 
 .hero {
   background: var(--color-hero);
-   padding: 188px 0; 
+  padding: 188px 0;
 }
 
 .hero-header {
@@ -164,7 +164,7 @@ body {
   color: var(--white-text);
 
   margin: 0 auto;
-  margin-bottom: 48px; 
+  margin-bottom: 48px;
   display: block;
   max-width: 496px;
 }
@@ -193,7 +193,6 @@ body {
   border-radius: 4px;
 }
 
-
 .booking-btn:hover,
 .booking-btn:focus {
   background-color: var(--nav-color-acctive);
@@ -209,24 +208,22 @@ a {
 }
 
 /* ADVANTAGES*/
-.advantages-section{
+.advantages-section {
   padding: 120px 0;
 }
+
 .advantages-list {
-  /* display: flex; */
-  /* padding: 120px 0; */
   flex-wrap: nowrap;
   flex-direction: row;
-
   gap: 24px;
 }
 
 .advantages-list:not(:first-child) {
   margin-left: 24px;
 }
+
 .advantage-item {
   flex-wrap: wrap;
-
   width: calc((100% - 72px) / 4);
 }
 
@@ -236,13 +233,14 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-header);
-
   margin-bottom: 8px;
 }
+
 .advantage-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /*What Are We Doing*/
 
 .job-section {
@@ -250,14 +248,8 @@ a {
 }
 
 .jobs-container {
-  /* width: calc((100%-48px) / 3); */
-
   gap: 24px;
 }
-
-/* .jobs-item:not(:first-child) {
-  margin-left: 24px;
-} */
 
 .jobs-item {
   width: calc((100%-48px) / 3);
@@ -271,7 +263,6 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--text-header);
-
   margin-bottom: 72px;
 }
 
@@ -283,17 +274,22 @@ a {
 }
 
 .team-members {
-  width: calc((100%-72px) / 4);
+  gap: 24px;
+
+  /* width: calc((100%-72px) / 4); */
   display: flex;
 }
 
 .member:not(:first-child) {
   margin-left: 24px;
+
+  width: calc((100%-72px) / 4);
 }
 
 .member {
   background: var(--white-text);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -317,7 +313,6 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   margin-top: 8px;
-
 }
 
 /*FOOTER*/
@@ -350,7 +345,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-btn);
-  margin-top:  16px;
+  /* margin-top:  16px; */
   display: block;
   max-width: 264px;
 }
@@ -364,8 +359,8 @@ footer {
 .nav-list {
   display: flex;
   justify-content: center;
-   margin-bottom: 72px;
-   gap: 24px;
+  margin-bottom: 72px;
+  gap: 24px;
 }
 
 .button-portfolio {
@@ -380,7 +375,7 @@ footer {
   color: var(--nav-color);
   background-color: var(--button-portfolio);
 
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
   /* border: 1px solid transparent; */
@@ -427,6 +422,6 @@ footer {
 
 .product-text {
   padding: 32px 16px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-top: none;
-} 
+}
