@@ -321,6 +321,10 @@ footer {
   /* background: #2e2f42; */
   background: var(--color-hero);
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .footer-section {
   padding: 100px 0;
@@ -336,7 +340,6 @@ footer {
   text-transform: uppercase;
   color: var(--main-btn);
   display: inline-block;
-
   margin-bottom: 16px;
 }
 
