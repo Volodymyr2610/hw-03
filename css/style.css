@@ -393,7 +393,7 @@ footer {
 }
 
 .product-card{
-  border: 1px solid #E7E9FC;
+  /* border: 1px solid #E7E9FC; */
   background: #FFFFFF;
 }
  /* product-text  */ 
@@ -421,10 +421,13 @@ footer {
 .product {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
-  
+  gap: 24px;
+  row-gap: 48px;
 }
- 
+/* .progect-item:nth-child(3) {
+  margin-right:0;}
+  */
 .product-text {
   padding: 32px 16px;
+  border: 1px solid #E7E9FC;
 } 
