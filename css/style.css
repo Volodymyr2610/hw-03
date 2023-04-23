@@ -209,12 +209,16 @@ a {
 }
 
 /* ADVANTAGES*/
-
+.advantages-section{
+  padding: 120px 0;
+}
 .advantages-list {
   /* display: flex; */
-  padding: 120px 0;
+  /* padding: 120px 0; */
   flex-wrap: nowrap;
   flex-direction: row;
+  
+  gap: 24px;
 }
 
 .advantages-list:not(:first-child) {
@@ -222,6 +226,8 @@ a {
 }
 .advantage-item {
   flex-wrap: wrap;
+
+  width: calc((100% - 72px) / 4);
 }
 
 .advantage-title {
