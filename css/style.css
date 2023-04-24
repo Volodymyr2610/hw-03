@@ -26,6 +26,8 @@ ul {
 
 ul {
   padding-left: 0;
+  
+  margin-left: 0;
 }
 
 .link {
@@ -244,7 +246,7 @@ a {
 /*What Are We Doing*/
 
 .job-section {
-  padding: 120px;
+  padding-bottom:  120px;
 }
 
 .jobs-container {
@@ -340,7 +342,7 @@ footer {
   text-transform: uppercase;
   color: var(--main-btn);
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .fut {
