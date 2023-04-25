@@ -276,17 +276,17 @@ a {
 }
 
 .team-members {
-  /* gap: 24px;  */
+  gap: 24px; 
 
   /* width: calc((100%-72px) / 4); */
   display: flex;
 }
 
-.member:not(:first-child) {
+/* .member:not(:first-child) {
   margin-left: 24px;
 
   width: calc((100%-72px) / 4);
-}
+} */
 
 .member {
   background: var(--white-text);
